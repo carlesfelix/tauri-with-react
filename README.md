@@ -4,7 +4,7 @@ This template should help get you started developing with Tauri, React and Types
 
 ## Requirements
 
-Tauri depends on technologies like Rust. You must follow to their documentation before to have a ready environment to work with it.
+Tauri depends on technologies like Rust. You must follow [their documentation](https://tauri.app/) before to have a ready environment to work with it.
 
 ## Recommended IDE Setup
 
