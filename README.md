@@ -84,4 +84,4 @@ Runs the linter like `npm run lint`. In addition the linter will try to fix prob
   @import url("./partial/button.css")
   ```
 
-- Do not import globally CSS files that container helpers like custom media queries. You must import them in each file where you need.
+- Do not import globally CSS files that contains helpers like custom media queries. You must import them in each file where you need.
