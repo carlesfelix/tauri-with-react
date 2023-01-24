@@ -1,5 +1,4 @@
 import svgrPlugin from 'vite-plugin-svgr'
-import postcssImport from 'postcss-import'
 import postcssPresetEnv from 'postcss-preset-env'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -34,7 +33,6 @@ export default defineConfig({
     devSourcemap: true,
     postcss: {
       plugins: [
-        postcssImport(),
         postcssPresetEnv({
           features: {
             'nesting-rules': true

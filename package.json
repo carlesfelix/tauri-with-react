@@ -19,7 +19,6 @@
   "devDependencies": {
     "@tauri-apps/cli": "1.2.3",
     "@types/node": "18.11.18",
-    "@types/postcss-import": "14.0.0",
     "@types/postcss-preset-env": "7.7.0",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
@@ -29,7 +28,6 @@
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "7.32.1",
     "eslint-plugin-react-hooks": "4.6.0",
-    "postcss-import": "15.1.0",
     "postcss-preset-env": "7.8.3",
     "stylelint": "14.16.1",
     "stylelint-config-standard": "29.0.0",
