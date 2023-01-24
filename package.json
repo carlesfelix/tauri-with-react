@@ -8,6 +8,11 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
+    "start:web": "npm run dev",
+    "build:web": "npm run build",
+    "preview:web": "npm run preview",
+    "start:desktop": "npm run tauri dev",
+    "build:desktop": "npm run tauri build",
     "lint": "eslint src",
     "lint:fix": "npm run lint -- --fix"
   },
