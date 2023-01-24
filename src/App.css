@@ -1,7 +1,11 @@
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
+@import url("./styles/utils/index.css");
+
+body {
+  background-color: var(--app-main-background);
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafb);
+@media (--min-lg-window) {
+  body {
+    background-color: var(--app-main-background-large);
+  }
 }
